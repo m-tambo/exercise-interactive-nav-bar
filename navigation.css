@@ -1,0 +1,36 @@
+body {
+	background: none;
+	margin: 0; ;
+}
+
+ul.navbar {
+	background-color: #0074d9;
+	margin: 0;
+  	display: flex;
+  	justify-content:space-around;
+  	list-style-type: none;
+  	height: auto;
+  	padding-top: 1%;
+  	padding-bottom: 1%;
+  	position: relative;
+  	text-align: center;
+}
+
+ul.navbar li a {
+	color: #ff851b;
+	font-size: 1.3em;
+	text-decoration: none;
+	list-style: none;
+	display: inline;
+	margin: auto;
+	padding: 4px;
+}
+
+ul.navbar li a:hover {
+	color: #fff;
+	background-color: #ff851b;
+}
+
+ul.navbar li:active {
+	padding: 0 5px;
+}
